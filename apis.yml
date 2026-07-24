@@ -1,8 +1,13 @@
 aid: clikalia
 name: Clikalia
-description: 'Clikalia is a company surfaced as a portfolio company of fifth-wall, softbank-vision-fund
-  and added to the API Evangelist network as a stub for enrichment. Sector: proptech. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Clikalia is a Spanish proptech founded in 2018 by Alister Moreno and Pablo Fernandez that
+  operates an iBuyer model for residential real estate: it makes homeowners an instant purchase offer,
+  can close a sale within days, then renovates and returns properties to the market in turnkey condition.
+  The company pairs proprietary technology with a large operations team to digitize a historically slow
+  home buying and selling process, and also offers mortgage brokerage (hipotecas) and renovation services
+  (Studio by Clikalia). Backed by Fifth Wall and SoftBank Vision Fund, Clikalia operates across Spain,
+  Portugal, France and Mexico. Clikalia does not publish a public developer API; this API Evangelist
+  profile captures its public web, legal, and domain-security surface.'
 url: https://raw.githubusercontent.com/api-evangelist/clikalia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +16,31 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://public.clikaliaes.com/images3_0/home/metadata/Clikalia-home-la-casa-que-quieres.png
 tags:
 - Company
 - Proptech
+- Real Estate
+- iBuyer
+- Housing
+- Mortgages
+- Renovation
+- Spain
+- Mexico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +48,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/clikalia-domain-security.yml
 - type: Website
   url: https://clikalia.com/
+- type: Blog
+  url: https://blog.clikalia.com/
+- type: TermsOfService
+  url: https://clikalia.es/legal/terminos-y-condiciones-compraventa
+- type: PrivacyPolicy
+  url: https://clikalia.es/legal/politica-de-privacidad
+- type: Support
+  url: https://clikalia.es/preguntas-frecuentes
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
