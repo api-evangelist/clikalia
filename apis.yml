@@ -45,7 +45,7 @@ image: https://public.clikaliaes.com/images3_0/home/metadata/Clikalia-home-la-ca
 tags:
 - Company
 - PropTech
-- Real-Estate
+- Real Estate
 - iBuyer
 - Housing
 - Mortgage
@@ -62,6 +62,7 @@ tags_raw:
 - Renovation
 - Spain
 - Mexico
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
